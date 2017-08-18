@@ -18,7 +18,7 @@ As the resulting items are to deliver destinct metadata such as "tags", the yout
 ## Infrastructure of the Crawler
 Beside the usuals, there are some more directories:
 - ./config - the place for credentials and Youtube informations like list of channels and so on
-- ./local_modules - for dev convenience, two small modules are placed here: one for the bare Youtube functionality, the other for some crawler logic. The latter should be placed elsewhere in the next release.
+- ./local_modules - there is one small module placed here for the bare fetching functionality.
 - routes - Only one express router: index.js
 
 The directories ./config and ./node_modules are git ignored.
