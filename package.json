@@ -1,0 +1,28 @@
+{
+  "name": "youtube-content-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "nodemon --inspect=0.0.0.0:9229 ./bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "command-line-args": "^4.0.7",
+    "express": "^4.15.4",
+    "fs-extra": "^4.0.1",
+    "morgan": "^1.8.2",
+    "object-assign": "^4.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serve-favicon": "~2.4.2",
+    "sc-youtube": "file:local_modules/sc_youtube"
+  }
+}
